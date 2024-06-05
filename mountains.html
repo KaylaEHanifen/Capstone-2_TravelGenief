@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summit Seekers</title>
+
+    <!-- Bootstrap CSS v5.3.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Customs CSS -->
+    <link rel="stylesheet" href="css/mountain.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Start of my Header-->
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar sticky-top bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand me-auto" href="index.html">
+                    <!-- Logo Image Linking Back to Homepage -->
+                    <img src="/images/Logo/sS-Logo2.png" alt="Logo" width="80" height="80"
+                        class="d-inline-block align-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nationalpark.html">National Parks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mountains.html">Summits</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="np-container" style="background-image: url('images/sS-Logo.png');">
+            <h1 style="text-align: center;">Mountain Explorer</h1>
+            <p style="text-align: center; font-style: italic; font-size: 20px; color: #000;">Journey to the Summits</p>
+            <div class="mountData-container">
+                <select id="mountainsSelect">
+                    <option value="">Select Mountain</option>
+                </select>
+            </div>
+            <div id="app"></div>
+            <div id="locations"></div>
+            <div id="mountainsList"></div>
+            <div id=""></div>
+        </div>
+    </main>
+<footer class="pt-2" style=fixed">
+    &copy Kayla Hanifen - Travel Genie 2024
+</footer>
+
+    <script src="scripts/mountainData.js"></script>
+    <script src="scripts/mountains.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
