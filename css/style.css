@@ -22,19 +22,15 @@ body {
 
 .button-container button {
 	background-color: rgba(70, 28, 28, 0.729);
-	/* Change the background color to green */
 	border-color: rgb(0, 0, 0);
-	/* Change the border color to green */
 	color: white;
-	/* Change the text color to white */
 	border-radius: 10px;
 }
 
 .button-container button:hover {
 	background-color: darkgreen;
-	/* Change the background color on hover */
 	border-color: darkgreen;
-	/* Change the border color on hover */
+
 }
 
 .custom-btn {
@@ -42,22 +38,17 @@ body {
 			128,
 			0,
 			0.729);
-	/* Change the background color to green */
-	border-color: green;
-	/* Change the border color to green */
+	border-color: black;
 	color: white;
-	/* Change the text color to white */
 	border-radius: 10px;
 }
 
 .custom-btn:hover {
-	background-color: darkgreen;
-	/* Change the background color on hover */
-	border-color: darkgreen;
-	/* Change the border color on hover */
+	background-color: black;
+	border-color: black;
 }
 
-/* footer styling */
+/* footer */
 
 footer {
 	background-size: cover;
@@ -81,17 +72,14 @@ footer {
 
 .contact-header {
 	margin-bottom: 20px;
-	/* Adjust the value as needed */
 }
 
 .contact-list {
 	margin-bottom: 20px;
-	/* Adjust the value as needed */
 }
 
 .contact-item {
 	margin-bottom: 10px;
-	/* Adjust the value as needed */
 }
 
 #email {
